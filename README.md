@@ -137,3 +137,11 @@ atmospheric sensitivity, release states, synthetic observation reproducibility,
 and retrieval behavior under nominal and degraded tracking. Passing these
 checks is numerical verification under the implemented assumptions, not
 validation against flight or instrument data.
+
+## Share this project
+
+Scan the QR code to open the GitHub repository:
+
+![QR code for KeynoteTalk](assets/KeynoteTalk_QR.png)
+
+Repository URL: <https://github.com/rafaelluizmesquita/KeynoteTalk>
