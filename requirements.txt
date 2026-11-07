@@ -1,0 +1,13 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+Pillow>=9.0
+ipywidgets>=8.1
+pandas>=2.0
+openpyxl>=3.1
+networkx>=3.0
+opencv-python-headless>=4.8
+PyMuPDF>=1.23
+netCDF4>=1.6
+cartopy>=0.22
+requests>=2.31

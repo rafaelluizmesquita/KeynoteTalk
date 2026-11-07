@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sbgea-keynote"
+version = "0.1.0"
+description = "Physics and virtual-experiment tools for the XI SBGEA 2026 keynote"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "Pillow>=9.0",
+]
+
+[project.optional-dependencies]
+notebooks = [
+  "jupyterlab>=4.0",
+  "ipykernel>=6.0",
+  "ipywidgets>=8.1",
+  "pandas>=2.0",
+  "netCDF4>=1.6",
+  "cartopy>=0.22",
+  "requests>=2.31",
+  "openpyxl>=3.1",
+  "networkx>=3.0",
+  "opencv-python-headless>=4.8",
+  "PyMuPDF>=1.23",
+]
+dev = ["pytest>=7.0", "build>=1.0"]
+
+[project.scripts]
+sbgea-render-mission = "sbgea_keynote.visualization.render_mission:main"
+sbgea-render-projectile = "sbgea_keynote.visualization.render_intro:main"
+sbgea-render-slides = "sbgea_keynote.visualization.render_stages:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
