@@ -1,8 +1,7 @@
 # KeynoteTalk — XI SBGEA 2026
 
 This standalone project contains the scripts, notebooks, scientific models,
-and visualization code used to prepare the XI SBGEA 2026 keynote. The original
-working copy remains in the `prizm` project. Large or personal inputs and
+and visualization code used to prepare the XI SBGEA 2026 keynote. Large or personal inputs and
 generated presentation assets are kept outside this repository in the
 `KEYNOTE` data directory.
 
